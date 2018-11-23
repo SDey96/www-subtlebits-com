@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Apercu";
+  font-weight: 300;
+  src: url("/static/fonts/Apercu-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Apercu Mono";
+  font-weight: 300;
+  src: url("/static/fonts/Apercu-Mono.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Sailec";
+  font-weight: 700;
+  src: url("/static/fonts/Sailec-Bold.woff2") format("woff2");
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #fff;
+  color: #6d6d6d;
+  font-family: "Apercu Mono";
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: #4e878c;
+}
