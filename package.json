@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "export": "next export",
+    "export": "npm run build && next export",
     "start": "next start"
   },
   "author": "Dino Hamzic",
