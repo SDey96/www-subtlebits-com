@@ -1,5 +1,7 @@
 **Repo for my personal website. Visit [subtlebits.com](https://subtlebits.com/) to have a look.**
 
+Built using React, Next.js and styled-components.
+
 ---
 
 **Setup**
