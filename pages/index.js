@@ -145,7 +145,7 @@ const IndexPage = () => (
       <List>
         <ListItem>
           <Title>
-            subtlebits.com &mdash; <a href="#" rel="noopener noreferrer" target="_blank">
+            subtlebits.com &mdash; <a href="https://github.com/dinohamzic/www-subtlebits-com" rel="noopener noreferrer" target="_blank">
               github.com/dinohamzic/www-subtlebits-com
             </a>
           </Title>
