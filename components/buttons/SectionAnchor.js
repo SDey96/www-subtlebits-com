@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import styled, { css } from 'styled-components'
 
+import { sailec } from '../../utils/fonts'
+
 function SectionAnchor({ className, children, target }) {
   return (
     <a className={className} href={target} onClick={() => jump(target)}>
@@ -25,6 +27,7 @@ const StyledSectionAnchor = styled(SectionAnchor)`
   border-radius: 2px;
   color: #fff;
   display: block;
+  font-family: ${sailec};
   font-size: 1.7rem;
   line-height: 1;
   margin: 2.5rem 0;

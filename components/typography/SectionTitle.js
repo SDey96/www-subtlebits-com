@@ -26,7 +26,6 @@ SectionTitle.defaultProps = {
 
 const StyledSectionTitle = styled(SectionTitle)`
   color: #111;
-  font-family: Sailec;
   font-size: 3.1rem;
   font-weight: 700;
   &:first-child {

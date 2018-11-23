@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
+import { apercu, apercuMono } from '../../utils/fonts'
+
 const List = styled.ul`
-  font-family: "Apercu";
+  font-family: ${apercu};
   list-style-type: none;
   margin: 4rem 0 2rem 0;
   padding: 0;
@@ -32,7 +34,7 @@ const Description = styled.p`
 `
 
 const Period = styled.p`
-  font-family: Apercu Mono;
+  font-family: ${apercuMono};
   font-size: 1rem;
   margin: 3rem 0 0 0;
   opacity: 0.5;
