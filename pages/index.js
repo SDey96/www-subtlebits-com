@@ -24,7 +24,11 @@ const IndexPage = () => (
         Feel free to contact me for any type of enquiry at the email below.
       </SectionDescription>
       <SectionDescription>
-        &mdash; <a href="mailto:dino@subtlebits.com">dino@subtlebits.com</a>
+        <a href="mailto:dino@subtlebits.com">
+          dino@subtlebits.com
+        </a> &mdash; <a href="https://www.linkedin.com/in/dino-hamzi%C4%87-19812b102/" rel="noopener noreferrer" target="_blank">
+          LinkedIn
+        </a>
       </SectionDescription>
       <SectionAnchors>
         <SectionAnchor style="square" target="#work">
