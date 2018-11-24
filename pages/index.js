@@ -18,10 +18,10 @@ const IndexPage = () => (
         Dino Hamzić &mdash; <strong>Software Engineer</strong>
       </SectionTitle>
       <SectionDescription>
-        I`m a twenty-six years old frontend engineer based in Sarajevo, Bosnia and Herzegovina. With over five years of
-        software development experience, I worked on dozens of projects for companies spanning from small local shops,
-        Silicon Valley startups, to established international companies. I speak fluent English, Italian and Bosnian.
-        Feel free to contact me for any type of enquiry at the email below.
+        I&#8217;m a twenty-six years old frontend engineer based in Sarajevo, Bosnia and Herzegovina. With over five
+        years of software development experience, I worked on dozens of projects for companies spanning from small
+        local shops, Silicon Valley startups, to established international companies. I speak fluent English, Italian
+        and Bosnian. Feel free to contact me for any type of enquiry at the email below.
       </SectionDescription>
       <SectionDescription>
         <a href="mailto:dino@subtlebits.com">
@@ -54,8 +54,8 @@ const IndexPage = () => (
         the development spectrum, and to become an active open source contributor.
       </SectionDescription>
       <SectionDescription>
-        Below is a list of the companies with whom I`m working, or worked with in the past, and a succinct description
-        of the roles in which I have partaken.
+        Below is a list of the companies with whom I&#8217;m working, or worked with in the past, and a succinct
+        description of the roles in which I have partaken.
       </SectionDescription>
       <List>
         <ListItem>
@@ -154,9 +154,9 @@ const IndexPage = () => (
             </a>
           </Title>
           <Description>
-            My personal website, used as a cv/portfolio. <i>Subtle</i> as in <i>`fine or delicate in meaning or
-            intent`</i>, and <i>bits</i> as in <i>`bits of code or interface design`</i>. This project is being
-            developed using React, Next.js and styled-components.
+            My personal website, used as a cv/portfolio. <i>Subtle</i> as in <i>&ldquo;fine or delicate in meaning or
+            intent&rdquo;</i>, and <i>bits</i> as in <i>&ldquo;bits of code or interface design&rdquo;</i>. This
+            project is being developed using React, Next.js and styled-components.
           </Description>
         </ListItem>
       </List>
@@ -203,9 +203,9 @@ const IndexPage = () => (
             </a>
           </Title>
           <Description>
-            Even though it`s a recent addition to my toolset, I`m already seeing the benefits of adopting TypeScript in
-            my workflow. Keeping sanity and consistency in a big codebase or team is always a big challenge, and with
-            TypeScript it has become much easier.
+            Even though it&#8217;s a recent addition to my toolset, I&#8217;m already seeing the benefits of adopting
+            TypeScript in my workflow. Keeping sanity and consistency in a big codebase or team is always a big
+            challenge, and with TypeScript it has become much easier.
           </Description>
         </ListItem>
         <ListItem>
