@@ -20,7 +20,7 @@ const IndexPage = () => (
       <SectionDescription>
         I`m a twenty-six years old frontend engineer based in Sarajevo, Bosnia and Herzegovina. With over five years of
         software development experience, I worked on dozens of projects for companies spanning from small local shops,
-        Silicon Valley startups, to established international companies. I speak fluently English, Italian and Bosnian.
+        Silicon Valley startups, to established international companies. I speak fluent English, Italian and Bosnian.
         Feel free to contact me for any type of enquiry at the email below.
       </SectionDescription>
       <SectionDescription>
