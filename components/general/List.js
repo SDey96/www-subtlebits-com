@@ -29,7 +29,7 @@ const Title = styled.h3`
 `
 
 const Description = styled.p`
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin: 1.5rem 0 0 0;
 `
 
