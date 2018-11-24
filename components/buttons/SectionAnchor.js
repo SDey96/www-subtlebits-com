@@ -6,8 +6,13 @@ import styled, { css } from 'styled-components'
 import { sailec } from '../../utils/fonts'
 
 function SectionAnchor({ className, children, target }) {
+  const scroll = (e, target) => {
+    e.preventDefault()
+    jump(target)
+  }
+
   return (
-    <a className={className} href={target} onClick={() => jump(target)}>
+    <a className={className} href={target} onClick={(e) => scroll(e, target)}>
       {children}
     </a>
   )
