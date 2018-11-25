@@ -65,8 +65,11 @@ const IndexPage = () => (
             </a>
           </Title>
           <Description>
-            As a frontend developer working at Symphony, I have the privilege of working on very dynamic and
-            challenging projects with prestigious clients from all over the world, especially from the Silicon Valley region.
+            As a frontend developer working at Symphony, I have the privilege of being part of very dynamic and
+            challenging projects with prestigious clients from all over the world, especially from the Silicon Valley
+            region. During my time here, I was responsible for bootstrapping the architecture of a frontend application
+            based on Next.js, but also jumped in ongoing React projects with larger and already established
+            external teams.
           </Description>
           <Period>
             January 2018 &mdash; Present
@@ -80,7 +83,8 @@ const IndexPage = () => (
           </Title>
           <Description>
             Worked on the creation of promotional websites by being provided design and interaction specifications, and
-            loose animation requirements.
+            loose animation requirements, delivering SEO compliant solutions that achieve almost perfect scores in the
+            most popular page speed ranking tools.
           </Description>
           <Period>
             Throughout 2018, by engagement
@@ -123,7 +127,7 @@ const IndexPage = () => (
           </Title>
           <Description>
             In partnership with a friend, we operated under this brand as freelancers working for local startups and
-            more traditional clients, creating promotional websites, web shops and small custom web applications.
+            more traditional businesses, creating promotional websites, web shops and small custom web applications.
           </Description>
           <Period>
             June 2013 &mdash; August 2015
@@ -191,7 +195,7 @@ const IndexPage = () => (
             </a>
           </Title>
           <Description>
-            As my go-to solution for server-side rendered React application, I successfully used Next.js in several
+            As my go-to solution for server-side rendered React applications, I successfully used Next.js in several
             production projects. Fast, light, and easy to use, it helped me achieve a drastic increase in loading
             times, while keeping a clean and modular React codebase, with the advantages of a server rendered one.
           </Description>
