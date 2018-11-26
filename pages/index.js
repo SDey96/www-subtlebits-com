@@ -26,6 +26,8 @@ const IndexPage = () => (
       <SectionDescription>
         <a href="mailto:dino@subtlebits.com">
           dino@subtlebits.com
+        </a> &mdash; <a href="https://github.com/dinohamzic" rel="noopener noreferrer" target="_blank">
+          GitHub
         </a> &mdash; <a href="https://www.linkedin.com/in/dino-hamzi%C4%87-19812b102/" rel="noopener noreferrer" target="_blank">
           LinkedIn
         </a>
