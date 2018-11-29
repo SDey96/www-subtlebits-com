@@ -167,12 +167,15 @@ const IndexPage = () => (
         </ListItem>
         <ListItem>
           <Title>
-            Displaceable.js &mdash; <a href="https://github.com/dinohamzic/displaceable" rel="noopener noreferrer" target="_blank">
-              github.com/dinohamzic/displaceable
+            Displaceable.js &mdash; <a href="https://subtlebits.com/projects/displaceable" rel="noopener noreferrer" target="_blank">
+              subtlebits.com/projects/displaceable
             </a>
           </Title>
           <Description>
-            A tiny, performant and configurable JavaScript library that handles super smooth element displacement on mouse move.
+            A tiny, performant and configurable JavaScript library that handles super smooth element displacement on
+            mouse move. Check it out on <a href="https://github.com/dinohamzic/displaceable" rel="noopener noreferrer" target="_blank">
+              GitHub
+            </a>.
           </Description>
         </ListItem>
       </List>
