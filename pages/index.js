@@ -165,6 +165,16 @@ const IndexPage = () => (
             project is being developed using React, Next.js and styled-components.
           </Description>
         </ListItem>
+        <ListItem>
+          <Title>
+            Displaceable.js &mdash; <a href="https://github.com/dinohamzic/displaceable" rel="noopener noreferrer" target="_blank">
+              github.com/dinohamzic/displaceable
+            </a>
+          </Title>
+          <Description>
+            A tiny, performant and configurable JavaScript library that handles super smooth element displacement on mouse move.
+          </Description>
+        </ListItem>
       </List>
     </Section>
 
