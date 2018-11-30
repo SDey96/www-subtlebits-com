@@ -96,7 +96,7 @@ class DisplaceablePage extends React.Component {
         <Trigger>
           <Header>
             <SectionDescription>
-              Displace.js can be configured to use a custom displacement trigger. Try it out: hover over the purple
+              Displaceable.js can be configured to use a custom displacement trigger. Try it out: hover over the purple
               square and see what happens.
             </SectionDescription>
           </Header>
