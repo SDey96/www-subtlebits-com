@@ -14,9 +14,19 @@ const Trigger = styled.section`
   position: relative;
 `
 
+const SmallTrigger = styled.section`
+  background: #9137f2;
+  border-radius: 5px;
+  height: 10rem;
+  position: absolute;
+  right: 4rem;
+  top: 4rem;
+  width: 10rem;
+`
+
 const Header = styled.header`
   margin: 0 auto;
-  max-width: 820px;
+  max-width: 82rem;
   padding: 50px 25px;
   text-align: center;
 `
@@ -25,8 +35,8 @@ const DisplaceableImage = styled.img`
   border-radius: 5px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1),
     0 6px 6px rgba(0, 0, 0, 0.1);
-  max-height: 500px;
-  max-width: 500px;
+  max-height: 50rem;
+  max-width: 50rem;
   position: absolute;
 `
 
@@ -42,6 +52,11 @@ class DisplaceablePage extends React.Component {
       document.getElementById('displaceable-image-02'),
       document.getElementById('displaceable-image-03')
     ], settings)
+
+    const displaceableTwo = new Displaceable([
+      document.getElementById('displaceable-image-04'),
+      document.getElementById('displaceable-image-05')
+    ], { trigger: document.getElementById('trigger-02') })
   }
 
   render() {
@@ -49,7 +64,7 @@ class DisplaceablePage extends React.Component {
       <Page>
         <Trigger id="trigger-01">
           <Header>
-            <SectionTitle>
+            <SectionTitle heading="h1">
               Displaceable.js
             </SectionTitle>
             <SectionDescription>
@@ -76,6 +91,27 @@ class DisplaceablePage extends React.Component {
             id="displaceable-image-03"
             src="/static/displaceable/03.jpg"
             style={{ left: `calc(50% - 300px)`, top: `calc(50% - 100px)` }}
+          />
+        </Trigger>
+        <Trigger>
+          <Header>
+            <SectionDescription>
+              Displace.js can be configured to use a custom displacement trigger. Try it out: hover over the purple
+              square and see what happens.
+            </SectionDescription>
+          </Header>
+          <SmallTrigger id="trigger-02" />
+          <DisplaceableImage
+            data-displace-factor="2"
+            id="displaceable-image-04"
+            src="/static/displaceable/03.jpg"
+            style={{ left: `calc(50% - 500px)`, top: `calc(50% - 270px)` }}
+          />
+          <DisplaceableImage
+            data-displace-factor="5"
+            id="displaceable-image-05"
+            src="/static/displaceable/02.jpg"
+            style={{ left: `calc(50% - 50px)`, top: `calc(50% - 250px)` }}
           />
         </Trigger>
       </Page>
