@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
-    "displaceable": "^0.2.3",
+    "displaceable": "^0.3.0",
     "jump.js": "^1.0.2",
     "next": "^7.0.2",
     "normalize.css": "^8.0.1",
