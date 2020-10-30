@@ -15,7 +15,7 @@
     "@zeit/next-css": "^1.0.1",
     "displaceable": "^0.3.0",
     "jump.js": "^1.0.2",
-    "next": "^7.0.2",
+    "next": "^9.3.2",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
